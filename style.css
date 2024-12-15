@@ -42,6 +42,15 @@ a,
     font-size: 18px;
 }
 
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #3882f6;
+    font-weight: 500;
+}
+
 .hero--one__main {
     display: flex;
     justify-content: space-between;
@@ -65,8 +74,12 @@ a,
     margin-bottom: 20px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .hero--one__text button {
-    background-color: rgb(72, 72, 197);
+    background-color: #4848c5;
     color: #fff;
     font-size: 18px;
     padding: 12px 36px;
@@ -74,6 +87,10 @@ a,
     border: none;
     font-weight: 700;
     align-self: flex-start;
+}
+
+.hero--one__text button:hover {
+    background-color: #3882f6;
 }
 
 .hero--one__main .img--placeholder{
@@ -173,6 +190,10 @@ a,
     border-radius: 13px;
     color: #fff;
     font-weight: 700;
+}
+
+.call-to-action button:hover {
+    background-color: #0b5de0;
 }
 
 .footer {
